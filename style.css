@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    background-image: url("pain.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ 
+.flex{
+   width: 300px;
+   max-width: 400px;
+   min-width: 300px;
+   
+   padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  height: 300px;
+  background-color:rgb(92, 137, 137);
+  background: transparent;
+}
+.flex .underline{
+    background-color: black;
+    height: 2px;
+    width: 20px;
+    margin-left: 90px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: transform .5s;
+}
+.inputbox{
+    background-color: rgb(92, 137, 137);
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    
+
+}
+.box{
+    background-color: rgb(92, 137, 137);
+    border-radius: 10px;
+    padding: 30px;
+   
+}
+.inputbox i{
+    margin-right: 7px;
+}
+
+.inputbox input{
+    padding: 1px 5px;
+    background-color:rgb(196, 255, 247);
+    border: none;
+     width: 70% ;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: transparent;
+    height: 30px;
+
+      
+}
+
+.inputbox input::placeholder{
+    color : black
+}
+
+
+.flex p{
+    font-size: 13px;
+    text-align: left;
+    margin-left: 7px;
+}
+
+.buttonssec{
+    display: flex;
+    justify-content: space-around
+}
+.buttonssec .signup{
+    width: 100px;
+    border-radius: 10px;
+    background-color: black ;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.buttonssec .signin{
+    width: 100px;
+    border-radius: 10px;
+    background-color: black ;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.buttonssec  .disable{
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(174, 173, 173) ;
+    color: black;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.flex p a{
+     color: brown;
+   
+}
+
+.box2{
+    
+    display: none;
+}
+
+
+
